@@ -48,4 +48,4 @@ require("./xml2jsobj.js").convert(
 * Even with only one child, the node would still have a `children` member as an array.
 
 ## Usage
-Call `<obj>.init` for initialization if you need. The arguments are just like that for [sax](https://www.npmjs.com/package/sax)'s parser, except that `trim` is default to `true`.
+Call `<obj>.init` for initialization if you need. The arguments are just like that for [sax](https://www.npmjs.com/package/sax)'s `parser`, except that `trim` is default to `true`.
