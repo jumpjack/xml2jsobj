@@ -1,4 +1,4 @@
-require("./xml2jsObj.js").convert(
+require("./xml2jsobj.js").convert(
 	'<r>\
 		<a>A1</a>\
 		<b c="d">B</b>\

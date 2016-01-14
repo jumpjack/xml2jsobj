@@ -1,14 +1,14 @@
 {
-  "name": "xml2jsObj",
+  "name": "xml2jsobj",
   "version": "0.1.0",
   "description": "Convert XML string to JS object",
-  "main": "xml2jsObj.js",
+  "main": "xml2jsobj.js",
   "scripts": {
     "test": "node test.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kong0107/xml2jsObj"
+    "url": "https://github.com/kong0107/xml2jsobj"
   },
   "keywords": [
     "xml",
@@ -17,9 +17,9 @@
   "author": "kong0107",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kong0107/xml2jsObj/issues"
+    "url": "https://github.com/kong0107/xml2jsobj/issues"
   },
-  "homepage": "https://github.com/kong0107/xml2jsObj",
+  "homepage": "https://github.com/kong0107/xml2jsobj",
   "dependencies": {
     "sax": "^1.1.4"
   }

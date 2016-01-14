@@ -1,9 +1,12 @@
-# xml2jsObj
+# xml2jsobj
 Convert XML string to JS object.
+
+## Install
+`npm install xml2jsobj`
 
 ## Usage
 ```javascript
-require("./xml2jsObj.js").convert(
+require("./xml2jsobj.js").convert(
 	'<r>\
 		<a>A1</a>\
 		<b c="d">B</b>\
@@ -21,23 +24,23 @@ require("./xml2jsObj.js").convert(
 ### Output
 ```javascript
 {	"name": "R",
-    "children": [
-        {	"name": "A",
-            "children": ["A1"]
-        },
-        {
-            "name": "B",
-            "attributes": {"C": "d"},
-            "children": ["B"]
-        },
-        {
-            "name": "A",
-            "children": [
-                "A2",
-                {"name": "E"}
-            ]
-        }
-    ]
+	"children": [
+		{	"name": "A",
+			"children": ["A1"]
+		},
+		{
+			"name": "B",
+			"attributes": {"C": "d"},
+			"children": ["B"]
+		},
+		{
+			"name": "A",
+			"children": [
+				"A2",
+				{"name": "E"}
+			]
+		}
+	]
 }
 ```
 
