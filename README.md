@@ -7,40 +7,38 @@ Convert XML string to JS object.
 ## Usage
 ```javascript
 require("./xml2jsobj.js").convert(
-	'<r>\
-		<a>A1</a>\
-		<b c="d">B</b>\
-		<a>\
-			A2\
-			<e />\
-		</a>\
-	</r>',
-	function(err, result) {
-		console.dir(result);
-	}
+    '<r>\
+        <a>A1</a>\
+        <b c="d">B</b>\
+        <a>\
+            A2\
+            <e />\
+        </a>\
+    </r>',
+    function(err, result) {
+        console.dir(result);
+    }
 );
 ```
 
 ### Output
 ```javascript
-{	"name": "R",
-	"children": [
-		{	"name": "A",
-			"children": ["A1"]
-		},
-		{
-			"name": "B",
-			"attributes": {"C": "d"},
-			"children": ["B"]
-		},
-		{
-			"name": "A",
-			"children": [
-				"A2",
-				{"name": "E"}
-			]
-		}
-	]
+{   "name": "R",
+    "children": [
+        {   "name": "A",
+            "children": ["A1"]
+        },
+        {   "name": "B",
+            "attributes": {"C": "d"},
+            "children": ["B"]
+        },
+        {   "name": "A",
+            "children": [
+                "A2",
+                {"name": "E"}
+            ]
+        }
+    ]
 }
 ```
 
