@@ -1,7 +1,7 @@
 {
   "name": "xml2jsobj",
-  "version": "0.1.5",
-  "description": "Convert XML string to JS object",
+  "version": "0.1.6",
+  "description": "Convert XML to JS object and maintain the order",
   "main": "xml2jsobj.js",
   "scripts": {
     "test": "node test.js"

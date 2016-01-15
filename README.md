@@ -1,12 +1,12 @@
 # xml2jsobj
-Convert XML string to JS object and maintain the order.
+Convert XML to JS object asynchronously and maintain the order.
 
 ## Install
 `npm install xml2jsobj`
 
 ## Example
 ```javascript
-require("./xml2jsobj.js").convert(
+require("xml2jsobj").convert(
     '<r>\
         <a>A1</a>\
         <b c="d">B</b>\
